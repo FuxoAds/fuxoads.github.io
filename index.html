@@ -6,7 +6,7 @@
 <title>Fuxo Ads — Publicidad en Meta que genera ventas reales</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
 <style>
   :root {
     --navy: #1A3357;
@@ -35,7 +35,7 @@
     border-bottom: 1px solid rgba(41,150,238,0.12);
   }
   .nav-logo {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 800; font-size: 20px;
     color: var(--white); letter-spacing: 0.05em;
   }
@@ -68,7 +68,7 @@
                       linear-gradient(90deg, rgba(41,150,238,0.5) 1px, transparent 1px);
     background-size: 60px 60px;
   }
-  .hero-content { position: relative; z-index: 1; max-width: 760px; }
+  .hero-content { position: relative; z-index: 1; max-width: 720px; }
   .hero-eyebrow {
     display: inline-flex; align-items: center; gap: 8px;
     background: rgba(41,150,238,0.12);
@@ -88,17 +88,17 @@
     50% { opacity: 0.5; transform: scale(0.8); }
   }
   .hero h1 {
-    font-family: 'Syne', sans-serif;
-    font-size: clamp(44px, 7vw, 80px);
-    font-weight: 800; line-height: 1.05;
-    letter-spacing: -0.02em; margin-bottom: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(38px, 5.5vw, 68px);
+    font-weight: 800; line-height: 1.1;
+    letter-spacing: -0.01em; margin-bottom: 28px;
   }
   .hero h1 em { font-style: normal; color: var(--salmon); }
   .hero h1 strong { font-style: normal; color: var(--blue); }
   .hero-sub {
-    font-size: clamp(16px, 2vw, 20px);
+    font-size: clamp(15px, 1.8vw, 18px);
     color: rgba(255,255,255,0.6);
-    line-height: 1.7; max-width: 560px; margin-bottom: 48px;
+    line-height: 1.75; max-width: 540px; margin-bottom: 48px;
     font-weight: 300;
   }
   .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; align-items: center; }
@@ -114,7 +114,7 @@
   .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 12px 32px rgba(255,138,102,0.4); }
   .btn-secondary {
     display: inline-flex; align-items: center; gap: 8px;
-    color: rgba(255,255,255,0.6); font-size: 15px;
+    color: rgba(255,255,255,0.55); font-size: 15px;
     text-decoration: none; font-weight: 400;
     transition: color 0.2s;
   }
@@ -125,33 +125,32 @@
     border-top: 1px solid rgba(255,255,255,0.08);
     flex-wrap: wrap;
   }
-  .stat-item {}
   .stat-num {
-    font-family: 'Syne', sans-serif;
-    font-size: 40px; font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px; font-weight: 800;
     color: var(--white); line-height: 1;
     margin-bottom: 4px;
   }
   .stat-num span { color: var(--salmon); }
-  .stat-label { font-size: 13px; color: rgba(255,255,255,0.45); font-weight: 300; }
+  .stat-label { font-size: 13px; color: rgba(255,255,255,0.4); font-weight: 300; }
 
   /* ── PROCESO ── */
   .section { padding: 100px 40px; }
   .section-tag {
-    font-size: 12px; font-weight: 500; letter-spacing: 0.1em;
+    font-size: 12px; font-weight: 600; letter-spacing: 0.1em;
     text-transform: uppercase; color: var(--blue);
-    margin-bottom: 16px;
+    margin-bottom: 16px; font-family: 'Montserrat', sans-serif;
   }
   .section-title {
-    font-family: 'Syne', sans-serif;
-    font-size: clamp(32px, 5vw, 52px);
-    font-weight: 800; line-height: 1.1;
-    letter-spacing: -0.02em; margin-bottom: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(28px, 4vw, 46px);
+    font-weight: 800; line-height: 1.15;
+    letter-spacing: -0.01em; margin-bottom: 16px;
   }
   .section-sub {
-    font-size: 17px; color: rgba(255,255,255,0.5);
-    max-width: 520px; line-height: 1.7; font-weight: 300;
-    margin-bottom: 64px;
+    font-size: 16px; color: rgba(255,255,255,0.5);
+    max-width: 500px; line-height: 1.75; font-weight: 300;
+    margin-bottom: 60px;
   }
   .proceso-grid {
     display: grid;
@@ -163,12 +162,11 @@
   .proceso-item {
     background: var(--dark);
     padding: 36px 32px;
-    position: relative;
     transition: background 0.3s;
   }
   .proceso-item:hover { background: rgba(26,51,87,0.6); }
   .proceso-num {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 11px; font-weight: 700;
     color: var(--blue); letter-spacing: 0.12em;
     margin-bottom: 20px; opacity: 0.7;
@@ -181,21 +179,21 @@
     font-size: 20px; margin-bottom: 20px;
   }
   .proceso-title {
-    font-family: 'Syne', sans-serif;
-    font-size: 18px; font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px; font-weight: 700;
     margin-bottom: 10px; color: var(--white);
   }
   .proceso-desc {
     font-size: 14px; color: rgba(255,255,255,0.45);
-    line-height: 1.7; font-weight: 300;
+    line-height: 1.75; font-weight: 300;
   }
 
   /* ── RESULTADOS ── */
   .resultados { background: var(--navy); padding: 100px 40px; }
   .results-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 24px; margin-top: 0;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
   }
   .result-card {
     background: rgba(255,255,255,0.04);
@@ -211,20 +209,21 @@
     background: var(--salmon);
   }
   .result-rubro {
-    font-size: 12px; font-weight: 500; letter-spacing: 0.08em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px; font-weight: 700; letter-spacing: 0.08em;
     text-transform: uppercase; color: var(--salmon);
-    margin-bottom: 20px; opacity: 0.8;
+    margin-bottom: 20px; opacity: 0.85;
   }
   .result-num {
-    font-family: 'Syne', sans-serif;
-    font-size: 64px; font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px; font-weight: 800;
     color: var(--white); line-height: 1;
     margin-bottom: 8px;
   }
   .result-num span { color: var(--blue); }
   .result-desc {
     font-size: 15px; color: rgba(255,255,255,0.5);
-    line-height: 1.6; margin-bottom: 24px; font-weight: 300;
+    line-height: 1.65; margin-bottom: 24px; font-weight: 300;
   }
   .result-detail {
     font-size: 13px; color: rgba(255,255,255,0.3);
@@ -236,23 +235,22 @@
   .testimonios { padding: 100px 40px; }
   .testi-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 24px;
   }
   .testi-card {
     background: rgba(26,51,87,0.4);
     border: 1px solid rgba(41,150,238,0.12);
     border-radius: 20px; padding: 36px;
-    position: relative;
   }
   .testi-quote {
-    font-size: 40px; color: var(--blue);
-    font-family: 'Syne', sans-serif;
-    line-height: 1; margin-bottom: 16px; opacity: 0.5;
+    font-size: 48px; color: var(--blue);
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1; margin-bottom: 16px; opacity: 0.4;
   }
   .testi-text {
-    font-size: 16px; color: rgba(255,255,255,0.75);
-    line-height: 1.75; margin-bottom: 28px;
+    font-size: 15px; color: rgba(255,255,255,0.75);
+    line-height: 1.8; margin-bottom: 28px;
     font-style: italic; font-weight: 300;
   }
   .testi-author { display: flex; align-items: center; gap: 14px; }
@@ -260,11 +258,14 @@
     width: 44px; height: 44px; border-radius: 50%;
     background: linear-gradient(135deg, var(--blue), var(--navy));
     display: flex; align-items: center; justify-content: center;
-    font-family: 'Syne', sans-serif;
-    font-weight: 700; font-size: 16px; color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; font-size: 15px; color: var(--white);
     flex-shrink: 0;
   }
-  .testi-name { font-weight: 500; font-size: 14px; margin-bottom: 2px; }
+  .testi-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600; font-size: 14px; margin-bottom: 2px;
+  }
   .testi-role { font-size: 12px; color: rgba(255,255,255,0.35); }
 
   /* ── CTA FINAL ── */
@@ -272,7 +273,6 @@
     padding: 120px 40px;
     text-align: center;
     position: relative; overflow: hidden;
-    background: linear-gradient(180deg, var(--dark) 0%, rgba(26,51,87,0.3) 100%);
   }
   .cta-section::before {
     content: '';
@@ -281,29 +281,29 @@
   }
   .cta-section > * { position: relative; z-index: 1; }
   .cta-section h2 {
-    font-family: 'Syne', sans-serif;
-    font-size: clamp(36px, 6vw, 68px);
-    font-weight: 800; line-height: 1.08;
-    letter-spacing: -0.02em; margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(30px, 5vw, 58px);
+    font-weight: 800; line-height: 1.12;
+    letter-spacing: -0.01em; margin-bottom: 20px;
   }
   .cta-section h2 em { font-style: normal; color: var(--salmon); }
   .cta-section p {
-    font-size: 18px; color: rgba(255,255,255,0.5);
-    margin-bottom: 48px; font-weight: 300;
+    font-size: 17px; color: rgba(255,255,255,0.5);
+    margin-bottom: 48px; font-weight: 300; line-height: 1.7;
   }
   .btn-big {
     display: inline-flex; align-items: center; gap: 12px;
     background: var(--salmon); color: var(--white);
     padding: 20px 44px; border-radius: 100px;
     font-family: 'DM Sans', sans-serif;
-    font-weight: 500; font-size: 18px;
+    font-weight: 500; font-size: 17px;
     text-decoration: none;
     transition: transform 0.2s, box-shadow 0.2s;
   }
   .btn-big:hover { transform: translateY(-4px); box-shadow: 0 16px 48px rgba(255,138,102,0.4); }
   .cta-note {
     margin-top: 20px; font-size: 13px;
-    color: rgba(255,255,255,0.25); font-weight: 300;
+    color: rgba(255,255,255,0.22); font-weight: 300;
   }
 
   /* ── FOOTER ── */
@@ -311,6 +311,7 @@
     padding: 40px; text-align: center;
     border-top: 1px solid rgba(255,255,255,0.06);
     font-size: 13px; color: rgba(255,255,255,0.2);
+    line-height: 1.8;
   }
   footer strong { color: rgba(255,255,255,0.4); }
 
@@ -349,12 +350,12 @@
     </div>
     <div class="hero-stats">
       <div class="stat-item">
-        <div class="stat-num">3.8<span>x</span></div>
-        <div class="stat-label">ROAS promedio en clientes activos</div>
+        <div class="stat-num">26<span>x</span></div>
+        <div class="stat-label">ROAS real — pastelería personalizada</div>
       </div>
       <div class="stat-item">
-        <div class="stat-num">60<span>+</span></div>
-        <div class="stat-label">días promedio para ver resultados</div>
+        <div class="stat-num">5.5<span>k</span></div>
+        <div class="stat-label">USD en ventas con $211 de inversión</div>
       </div>
       <div class="stat-item">
         <div class="stat-num">0<span>$</span></div>
@@ -374,12 +375,12 @@
       <div class="proceso-num">01</div>
       <div class="proceso-icon">🔍</div>
       <div class="proceso-title">Diagnóstico del negocio</div>
-      <div class="proceso-desc">Analizo tu tienda, tus redes y tu competencia. Entiendo qué vendés, a quién, y dónde están las oportunidades de mejora antes de invertir un peso.</div>
+      <div class="proceso-desc">Analizo tu tienda, tus redes y tu competencia. Entiendo qué vendés, a quién, y dónde están las oportunidades antes de invertir un peso.</div>
     </div>
     <div class="proceso-item">
       <div class="proceso-num">02</div>
       <div class="proceso-icon">🎯</div>
-      <div class="proceso-title">Estrategia y competencia</div>
+      <div class="proceso-title">Análisis de competencia</div>
       <div class="proceso-desc">Analizo qué campañas está corriendo tu competencia. Con esa info planeamos el contenido y los mensajes que mejor van a funcionar para tu audiencia.</div>
     </div>
     <div class="proceso-item">
@@ -416,22 +417,22 @@
   <p class="section-sub">Casos de clientes reales. Sin magia — solo estrategia, optimización y paciencia.</p>
   <div class="results-grid">
     <div class="result-card">
+      <div class="result-rubro">Pastelería personalizada</div>
+      <div class="result-num">26<span>x</span></div>
+      <div class="result-desc">Retorno sobre inversión en el primer mes de campaña con presupuesto inicial conservador.</div>
+      <div class="result-detail">USD 211 invertidos → USD 5.528 en ventas directas</div>
+    </div>
+    <div class="result-card">
+      <div class="result-rubro">Papelería</div>
+      <div class="result-num">10<span>x</span></div>
+      <div class="result-desc">Retorno sobre inversión con 360 conversiones en el período de campaña.</div>
+      <div class="result-detail">$1.394.811 invertidos → $15.196.008 en ventas</div>
+    </div>
+    <div class="result-card">
       <div class="result-rubro">Indumentaria</div>
-      <div class="result-num">3.8<span>x</span></div>
-      <div class="result-desc">Retorno sobre inversión en 45 días de campaña con presupuesto inicial conservador.</div>
-      <div class="result-detail">$200 USD invertidos → $760 USD en ventas directas</div>
-    </div>
-    <div class="result-card">
-      <div class="result-rubro">Cosmética</div>
-      <div class="result-num">5<span>x</span></div>
-      <div class="result-desc">Multiplicación de ventas en 60 días. Pasaron de vender de forma orgánica a tener un flujo predecible de clientes.</div>
-      <div class="result-detail">De ventas inconsistentes a crecimiento sostenido</div>
-    </div>
-    <div class="result-card">
-      <div class="result-rubro">Accesorios</div>
-      <div class="result-num">340<span>+</span></div>
-      <div class="result-desc">Ventas mensuales después de 60 días de campaña. Arrancaron con 80 ventas por mes.</div>
-      <div class="result-detail">Crecimiento del 325% en volumen de ventas</div>
+      <div class="result-num">4<span>x</span></div>
+      <div class="result-desc">Multiplicación de ventas mensuales en 60 días de campaña. Arrancaron con ventas inconsistentes.</div>
+      <div class="result-detail">Crecimiento sostenido mes a mes</div>
     </div>
   </div>
 </section>
@@ -440,38 +441,38 @@
 <section class="testimonios">
   <div class="section-tag">Lo que dicen los clientes</div>
   <h2 class="section-title">Confianza que<br>se construye con resultados.</h2>
-  <p class="section-sub">Emprendedores y dueños de tiendas online que decidieron delegar su publicidad.</p>
+  <p class="section-sub">Emprendedoras y dueñas de tiendas online que decidieron delegar su publicidad.</p>
   <div class="testi-grid">
     <div class="testi-card">
       <div class="testi-quote">"</div>
-      <p class="testi-text">Antes probé con otras personas y no veía resultados. Con Bren en el primer mes ya recuperé la inversión y empecé a vender de forma consistente. Lo mejor fue que me explicó todo sin tecnicismos.</p>
+      <p class="testi-text">Tenía miedo de invertir en publicidad porque no entendía nada. Bren me acompañó en todo el proceso, me explicó cada decisión sin tecnicismos y los resultados superaron lo que esperaba. ¡En el primer mes recuperé la inversión y mucho más!</p>
       <div class="testi-author">
-        <div class="testi-avatar">MG</div>
-        <div>
-          <div class="testi-name">Florencia</div>
-          <div class="testi-role">Tienda de indumentaria · Buenos Aires</div>
-        </div>
-      </div>
-    </div>
-    <div class="testi-card">
-      <div class="testi-quote">"</div>
-      <p class="testi-text">Tenía miedo de invertir en publicidad porque no entendía nada del tema. Bren me acompañó en todo el proceso, me explicó cada decisión y los resultados superaron lo que esperaba.</p>
-      <div class="testi-author">
-        <div class="testi-avatar">LR</div>
+        <div class="testi-avatar">Ca</div>
         <div>
           <div class="testi-name">Carolina</div>
-          <div class="testi-role">E-commerce de cosmética · CABA</div>
+          <div class="testi-role">Indumentaria femenina · Buenos Aires</div>
         </div>
       </div>
     </div>
     <div class="testi-card">
       <div class="testi-quote">"</div>
-      <p class="testi-text">Lo que más valoro es el reporte mensual. Por primera vez sé exactamente cuánto gasté y cuánto gané. Esa claridad no la tenía con ningún otro proveedor.</p>
+      <p class="testi-text">Lo que más valoro es que Bren entiende mi negocio antes de hacer cualquier cosa. No es solo poner anuncios — es una estrategia real. Mis ventas crecieron de forma consistente y por primera vez sé exactamente de dónde vienen mis clientes.</p>
       <div class="testi-author">
-        <div class="testi-avatar">CP</div>
+        <div class="testi-avatar">Ju</div>
         <div>
-          <div class="testi-name">Micaela</div>
-          <div class="testi-role">Tienda de accesorios · Córdoba</div>
+          <div class="testi-name">Juana</div>
+          <div class="testi-role">Indumentaria infantil · CABA</div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card">
+      <div class="testi-quote">"</div>
+      <p class="testi-text">Antes probé con otras personas y no veía nada. Con Bren fue diferente desde el principio — me explica todo, me manda el reporte mensual y siento que tengo el control de mi negocio. Los resultados están y eso lo dice todo.</p>
+      <div class="testi-author">
+        <div class="testi-avatar">Ca</div>
+        <div>
+          <div class="testi-name">Camila</div>
+          <div class="testi-role">Accesorios · Córdoba</div>
         </div>
       </div>
     </div>
@@ -480,8 +481,8 @@
 
 <!-- CTA FINAL -->
 <section class="cta-section">
-  <h2>¿Listo para que tu<br>tienda venda <em>más?</em></h2>
-  <p>El primer paso es gratis. Hablamos, analizamos tu situación<br>y vemos si tiene sentido trabajar juntos.</p>
+  <h2>¿Lista para que tu<br>tienda venda <em>más?</em></h2>
+  <p>El primer paso es gratis. Hablamos, analizamos tu situación<br>y vemos si tiene sentido trabajar juntas.</p>
   <a href="https://wa.me/5491139326863?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20el%20servicio%20de%20Fuxo%20Ads" target="_blank" class="btn-big">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
     Escribime por WhatsApp
